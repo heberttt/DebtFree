@@ -50,7 +50,7 @@ nav{
 button{
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgba(41, 220, 74,1);
+    background-color: #6bba62;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -61,7 +61,7 @@ button{
 }
 
 button:hover{
-    background-color: rgba(41, 220, 74,0.8);
+    background-color: #9ae17b;
 }
 
 button img{
@@ -74,7 +74,7 @@ button img{
 }
 
 footer{
-    background: #46568e;
+    background: #9ae17b;
     padding-top: 15px;
     margin-top: 2.5rem;
     position: absolute;
@@ -172,14 +172,14 @@ a:hover{
 }
 
 .bottom-footer{
-    background: rgba(41, 220, 74,1);
+    background: #6bba62;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
 }
 
 .bottom-footer p{
-    color: #343434;
+    color: white;
     margin: 0;
     font-size: 16px;
     padding: 7px;
