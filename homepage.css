@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+
+#homepage-top{
+    padding: 5% 10% 10% 10%;
+    background-color: #e8ecd6;
+}
+
+#homepage-top h1{
+    display: flex;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+#homepage-top h3{
+    display: flex;
+    font-size: 1.5  rem;
+}
+
+.category-content{
+    max-width: 130px;
+    min-width: 130px;
+    text-align: center;
+    background-color: white;
+    padding: 3%;
+    margin-right: 10%;
+}
+
+.category-content img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.category-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.category{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#about-us{
+    background-color: white;
+    padding: 5% 10%;
+}
+
+#about-us h1{
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+}
+
+.about-us-content{
+    max-width: 75%;
+    width: 100%;
+}
+
+.container img{
+    max-width: 300px;
+    min-width: 25%;
+    max-height: 400px;
+    width: fit-content;
+}
+
+#contact-us{
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #a23131;
+}
+
+#contact-us h1{
+    font-size: 3rem;
+    color: white;
+}
+
+.email-contact{
+    background-color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.email-contact input{
+    width: 300px;
+    padding: 10px;
+}
+
+.email-contact #content{
+    resize: none;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+}
