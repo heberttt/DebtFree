@@ -99,4 +99,61 @@
     padding-left: 60px;
     font-size: 40px;
     font-weight: 300;
+    margin-bottom: 90px;
+}
+
+#paymentMethodContainer{
+    background-color: none;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+
+}
+
+.paymentMethodBox{
+    background-color: white;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid rgb(132, 132, 248);
+}
+
+.paymentMethodBox input{
+    float: right;
+}
+.paymentMethodBox img{
+    float: left;
+    margin-right: 80px;
+}
+
+#payBtn{
+    background-color: white;
+    border: 2 px solid rgb(132, 132, 248);
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    float: right;
+    margin: auto;
+    margin-top: 5%;
+    margin-right:3%;
+    border-radius: 30px;
+    width: 120px;
+    height: 50px;
+    margin-bottom: 130px;
+}
+
+#payBtn:hover{
+    background-color: rgb(209, 209, 209);
+    color: white;
+}
+
+#payBtn:active{
+    transform: translateY(4px);
+}
+
+#foot{
+    width: 100%;
+    bottom: 0;
 }

@@ -55,15 +55,16 @@
             <div id="paymentMethodContainer">
                 <form>
                     <div class="paymentMethodBox">
-                        <input type="radio" class="paymentMethodOption" name = "paymentMethod" value="Credit / Debit Card">
+                        <img style="width:30px" src="src/creditCardLogo.png"><span>Credit / Debit Card</span><input type="radio" class="paymentMethodOption" name = "paymentMethod" value="Credit / Debit Card">
                     </div>
                     <div class="paymentMethodBox">
-                        <input type="radio" class="paymentMethodOption" name = "paymentMethod" value="Touch N Go">
+                        <img style="width:30px" src="src/grabpayLogo.png"><span>Grab Pay</span><input type="radio" class="paymentMethodOption" name = "paymentMethod" value="Touch N Go">
                     </div>
                     <div class="paymentMethodBox">
-                        <input type="radio" class="paymentMethodOption" name = "paymentMethod" value="Credit / Debit Card">
+                        <img style="width:30px" src="src/tngLogo.png"><span>Touch N Go</span><input type="radio" class="paymentMethodOption" name = "paymentMethod" value="Credit / Debit Card">
                     </div>
 
+                    <input id="payBtn" type="submit" value="Pay">
                 </form>
             </div>
         </div>
@@ -71,7 +72,7 @@
         </div>
     </div>
 
-    <footer style="display: none;">
+    <footer id="foot">
         <div class="container">
             <div class="footer-content">
                 <h3>Site Map</h3>
