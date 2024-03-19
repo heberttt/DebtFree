@@ -4,7 +4,7 @@
 
 #homepage-top{
     padding: 5% 10% 10% 10%;
-    background-color: #e8ecd6;
+    background-color: #f4f4f4;
 }
 
 #homepage-top h1{
@@ -44,30 +44,65 @@
     margin-top: 5%;
 }
 
+hr{
+    border: solid 2px #a23131;
+    max-width: 20%;
+    margin: auto;
+}
+
 #about-us{
     background-color: white;
     padding: 5% 10%;
+    text-align: center;
+
 }
 
 #about-us h1{
-    text-decoration: underline;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.about-us-text{
+    margin-bottom: 3%;
+}
+
+.about-us-img{
+    max-width: 80%;
+    object-fit: cover;
+    background-color: blue;
+    margin-bottom: 2%;
 }
 
 .container{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    margin-top: 50px;
 }
 
-.about-us-content{
-    max-width: 75%;
-    width: 100%;
+.box{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    background-color: #f6f6f6;
+    align-items: center;
 }
 
-.container img{
-    max-width: 300px;
-    min-width: 25%;
-    max-height: 400px;
-    width: fit-content;
+.box div img{
+    display: block;
 }
+
+.box h3,p{
+    text-align: justify;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.box img{
+    width: 100px;
+}
+
+
 
 #contact-us{
     padding: 5% 10%;
