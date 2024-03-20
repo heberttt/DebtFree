@@ -1,5 +1,10 @@
 *{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
     margin: 0;
+    padding: 0;
 }
 
 #homepage-top{
@@ -44,7 +49,7 @@
     margin-top: 5%;
 }
 
-hr{
+about-us-hr{
     border: solid 2px #a23131;
     max-width: 20%;
     margin: auto;
@@ -73,14 +78,14 @@ hr{
     margin-bottom: 2%;
 }
 
-.container{
+.about-us-container{
     display: grid;
     grid-template-columns: auto auto;
     gap: 40px;
     margin-top: 50px;
 }
 
-.box{
+.about-us-box{
     display: grid;
     grid-template-columns: auto auto;
     padding: 20px;
@@ -88,17 +93,17 @@ hr{
     align-items: center;
 }
 
-.box div img{
+.about-us-box div img{
     display: block;
 }
 
-.box h3,p{
+.about-us-box h3,p{
     text-align: justify;
     padding: 5px;
     margin-left: 10px;
 }
 
-.box img{
+.about-us-box img{
     width: 100px;
 }
 

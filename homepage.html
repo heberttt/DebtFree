@@ -6,8 +6,23 @@
         <meta name="description" content="Debt-Free HomePage" />
         <title>Home</title>
         <link rel="stylesheet" href="homepage.css" />
+        <link rel="stylesheet" href="Navbar.css" />
+        <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <header class="header">
+            <a href="#" class="logo"><img src="src/logo.png"></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Article</a></li>
+                </ul>
+            </nav>
+            <a class="sign-in" href="#"><button>Sign-in<img src="src/user.png"></button></a>
+        </header>
+
         <section id="homepage-top">
             <h1>Need Financial Advise?</h1>
             <h3>Get in contact with the experts</h3>
@@ -36,10 +51,10 @@
                 Quisque in eros vitae ex fringilla pretium ac eu ante. Sed accumsan massa libero. Suspendisse vel congue ante, nec varius metus. Sed et pulvinar nibh. Suspendisse ac mattis nisl. Pellentesque consequat mauris felis, quis elementum magna congue vitae. Nullam mollis, orci in tincidunt porttitor, diam ipsum tempus ante, at tincidunt ante elit euismod urna. Curabitur quis pharetra ex, id interdum mauris. Sed cursus sodales scelerisque. Duis ligula tellus, sollicitudin non nulla porta, tincidunt fringilla metus. Etiam ac odio sit amet lectus elementum varius. Sed scelerisque nibh arcu, eu blandit ligula aliquet vitae. Nullam tortor mauris, vestibulum et tincidunt at, bibendum ut mi. Suspendisse imperdiet varius ante, sit amet blandit erat imperdiet ac. Quisque odio dui, tristique in elit a, elementum euismod orci.
             </p>
 
-            <hr>
+            <hr class="about-us-hr">
 
-            <div class="container">
-                <div class="box">
+            <div class="about-us-container">
+                <div class="about-us-box">
                     <div>
                         <img src="src/logo.png">
                     </div>
@@ -49,7 +64,7 @@
                     </div>
                 </div>
 
-                <div class="box">
+                <div class="about-us-box">
                     <div>
                         <img src="src/logo.png">
                     </div>
@@ -59,7 +74,7 @@
                     </div>
                 </div>
 
-                <div class="box">
+                <div class="about-us-box">
                     <div>
                         <img src="src/logo.png">
                     </div>
@@ -69,12 +84,12 @@
                     </div>
                 </div>
 
-                <div class="box">
+                <div class="about-us-box">
                     <div>
                         <img src="src/logo.png">
                     </div>
                     <div>
-                        <h3>Community Commitment</h3>
+                        <h3>Commitment</h3>
                         <p>We're not just advisors; we're partners in your financial journey. Our team is dedicated to fostering a supportive community where individuals can share their experiences, learn from one another, and thrive together.</p>
                     </div>
                 </div>
@@ -92,5 +107,43 @@
                 <textarea type="text" name="content" id="content" placeholder="Write your text here..."></textarea>
             </div>
         </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <h3>Site Map</h3>
+                    <ul class="list">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-content">
+                    <h3>Customer Service</h3>
+                    <ul class="list">
+                        <li><a href="#">Help Centre</a></li>
+                        <li><a href="#">Report an issue</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-content">
+                    <h3>Follow Us</h3>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+
+            <div class="bottom-footer">
+                <p>&copy;DEBT-FREE, 2024. ALL RIGHTS RESERVED</p>
+            </div>
+        </footer>
     </body>
 </html>
