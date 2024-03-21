@@ -1,0 +1,178 @@
+#searchBar{
+    background-color: rgb(178, 178, 178);
+    margin: auto;
+    align-items: center;
+    width: 100%;
+}
+
+#searchBox{
+    border-radius: 40px;
+    margin: auto;
+    display: flex;
+    height: 60px;
+    width: 80%;
+    margin-top: 30px;
+    font-size: 20px;
+    padding-left: 20px;
+    float : left;
+}
+
+#search{
+    float: right;
+    display: inline;
+}
+
+
+#right{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid rgb(168, 168, 168);
+    float: right;
+    margin-right: 21%;
+}
+
+#left {
+    width: 98%;
+    height: 60px;
+    border-radius: 20px;
+    margin-left: 2%;
+    font-size: 25px;
+    padding-left: 1%;
+}
+table {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#rightCell{
+    width: 11%;
+}
+
+#searchBox2{
+    margin-top: 30px
+}
+
+#title{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-weight: 300;
+    display: inline-block;
+}
+
+#Recommended li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 95%;
+}
+
+.profilePicture img{
+    width: 85px;
+}
+
+#Recommended{
+    margin: auto;
+    width: 100%;
+    padding-right: 0px;
+}
+
+.profilePicture{
+    float:left;
+    width: 10%;
+    align-self: center;
+    padding-right: 0px;
+    margin-left: 5%;
+}
+
+.profileData{
+    float:left;
+    width: 33.33%;
+    margin-left: 6%
+}
+
+.price{
+    float:right;
+    width: 20%;
+    margin-top: 2%;
+    text-align: center;
+    align-items: center;
+}
+
+.price button{
+    margin: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.box{
+    display: inline-block;
+    background-color: rgb(227, 205, 188);
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.profileName{
+    font-size: 30px;
+    word-spacing: 5px;
+    display: block;
+}
+
+.profileJob{
+    display: block;
+    margin-top: 10px;
+}
+
+.status{
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+}
+
+.profileRatingGood{
+    margin-right: 20px;
+    background-color: rgb(75, 219, 70);
+    height: 200px;
+    width: 100px;
+    padding: 10px;
+    
+}
+
+.profileRatingMedium{
+    margin-right: 20px;
+    background-color: rgb(254, 243, 92);
+    height: 200px;
+    width: 100px;
+    padding: 10px;
+    
+}
+
+.profileRatingBad{
+    margin-right: 20px;
+    background-color: rgb(240, 70, 70);
+    height: 200px;
+    width: 100px;
+    padding: 10px;
+    
+}
+.profileExp{
+    background-color: rgb(75, 211, 181);
+    padding: 10px;
+    width: 100px;
+}
+
+.profileExp img{
+    height: 30px;
+    width: 30px;
+}
+
+.Unavailable{
+    background-color: rgb(137, 137, 137);
+}
