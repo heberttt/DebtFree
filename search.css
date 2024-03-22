@@ -176,3 +176,8 @@ table {
 .Unavailable{
     background-color: rgb(137, 137, 137);
 }
+
+#foot{
+    width: 100%;
+    bottom:auto;
+}
