@@ -8,10 +8,9 @@ body {
 
 header{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
     padding: 5px 5%;
     background-color: white;
+    align-items: center;
 }
 
 .logo{
@@ -20,20 +19,19 @@ header{
 
 .logo img{
     width: 100%;
-    display: block;
 }
 
 nav{
     margin-right: auto;
+
 }
 
 .nav-links{
-    list-style: none;
+    padding: 0;
 }
 
 .nav-links li{
-    display: inline-block;
-    padding: 0px 10px;
+    display: inline;
 }
 
 .nav-links li a{
@@ -41,6 +39,7 @@ nav{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.832);
     font-size: 1.2em;
+    padding: 0px 10px;
 }
 
 .nav-links li a:hover{
@@ -48,7 +47,6 @@ nav{
 }
 
 button{
-    margin-left: 20px;
     padding: 9px 25px;
     background-color: #6bba62;
     border: none;
@@ -71,6 +69,9 @@ button span{
 .sign-in{
     text-decoration: none;
 }
+
+
+
 
 footer{
     background: #9ae17b;
