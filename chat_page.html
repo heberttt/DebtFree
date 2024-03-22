@@ -47,7 +47,7 @@
 							<div class="action_menu">
 								<ul>
 									<li><span class="material-icons">account_circle</span>View profile</li>
-									<li><span class="material-icons">call_end</span>End call</li>
+									<a onclick="togglePopup()"><li><span class="material-icons">call_end</span>End call</li></a>
 									<li><span class="material-icons">block</span>Block</li>
 								</ul>
 							</div>
@@ -183,11 +183,21 @@
                 </div>
             </div>
             
-
             <div class="bottom-footer">
                 <p>&copy;DEBT-FREE, 2024. ALL RIGHTS RESERVED</p>
             </div>
         </footer>
+
+		<div class="popup" id="popup-1">
+			<div class="popup-content">
+				<h1>Are you sure you want to end the call?</h1>
+				<div class="popup-btn">
+					<button class="btn-yes">Yes</button>
+					<button class="btn-no" onclick="togglePopup()">No</button>
+				</div>
+			</div>
+		</div>
+		
 	<!-- JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="chat_page.js"></script>
