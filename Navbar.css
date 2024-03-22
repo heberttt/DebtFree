@@ -2,17 +2,15 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     margin: 0;
-    background-color: antiquewhite;
 }
 
 header{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
     padding: 5px 5%;
     background-color: white;
+    align-items: center;
 }
 
 .logo{
@@ -25,15 +23,18 @@ header{
 
 nav{
     margin-right: auto;
+    display: flex;
+    align-items: center;
+
 }
 
 .nav-links{
-    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-links li{
-    display: inline-block;
-    padding: 0px 10px;
+    display: inline;
 }
 
 .nav-links li a{
@@ -41,14 +42,14 @@ nav{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.832);
     font-size: 1.2em;
+    padding: 0px 10px;
 }
 
 .nav-links li a:hover{
     color: rgb(41, 220, 74);
 }
 
-button{
-    margin-left: 20px;
+.sign-in button{
     padding: 9px 25px;
     background-color: #6bba62;
     border: none;
@@ -60,24 +61,30 @@ button{
     align-items: center;
 }
 
-button:hover{
+.sign-in button:hover{
     background-color: #9ae17b;
 }
 
-button img{
-    width: 25px;
+.sign-in button span{
     margin-left: 10px;
+
 }
 
 .sign-in{
     text-decoration: none;
 }
 
+.sign-in:hover{
+    text-decoration: none;
+}
+
+
+
+
 footer{
     background: #9ae17b;
     padding-top: 15px;
-    margin-top: 2.5rem;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }

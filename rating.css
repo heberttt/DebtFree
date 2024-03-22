@@ -1,0 +1,69 @@
+
+
+
+rating{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #ffe400;
+}
+
+.rating{
+    height: 270px;
+    width: 400px;
+    background: #101012;
+    border: 4px solid #838383;
+    padding: 20px;
+}
+
+
+.rating .star-icon, h1{
+    color: #ffe400;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+    cursor: default;
+    margin: 0;
+}
+
+.rating input{
+    display: none;
+}
+
+.rating label{
+    padding: 10px;
+}
+
+
+.star-icon .material-symbols-outlined {
+  font-size: 40px;
+}
+
+
+.rating input + label{
+    cursor: pointer;
+}
+
+.rating input:checked + label ~ label{
+    color: #838383;
+}
+
+.rating label:active{
+    transform: scale(0.8);
+    transition: 0.3s ease;
+}
+
+#submit{
+    display: flex;
+    justify-content: center;
+}
+
+#submit button{
+    padding: 10px 20px;
+    background-color: #ffe400;
+    font-size: 15px;
+    border-radius: 10px;
+}
