@@ -23,11 +23,14 @@ header{
 
 nav{
     margin-right: auto;
+    display: flex;
+    align-items: center;
 
 }
 
 .nav-links{
     padding: 0;
+    margin: 0;
 }
 
 .nav-links li{
@@ -64,9 +67,14 @@ button:hover{
 
 button span{
     margin-left: 10px;
+
 }
 
 .sign-in{
+    text-decoration: none;
+}
+
+.sign-in:hover{
     text-decoration: none;
 }
 
