@@ -9,7 +9,12 @@ body{
 
 #homepage-top{
     padding: 5% 10% 10% 10%;
-    background-color: #f4f4f4;
+    background: url("src/money-pot.jpg");    
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 #homepage-top h1{
@@ -25,7 +30,7 @@ body{
 
 .category-content{
     max-width: 130px;
-    min-width: 130px;
+    min-width: 140px;
     text-align: center;
     background-color: white;
     padding: 3%;
@@ -103,6 +108,10 @@ about-us-hr{
     margin-left: 10px;
 }
 
+.about-us-box h3{
+    color: #00a651;
+}
+
 .about-us-box img{
     width: 100px;
 }
@@ -114,7 +123,7 @@ about-us-hr{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #a23131;
+    background-color: 	#A60E00;
 }
 
 #contact-us h1{

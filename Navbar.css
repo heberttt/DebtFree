@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    background-color: white;
 }
 
 header{
@@ -15,10 +16,12 @@ header{
 
 .logo{
     max-width: 60px;
+    max-height: 55px;
 }
 
 .logo img{
     width: 100%;
+    height: 100%;
 }
 
 nav{
@@ -46,12 +49,12 @@ nav{
 }
 
 .nav-links li a:hover{
-    color: rgb(41, 220, 74);
+    color: #00a651;
 }
 
 .sign-in button{
     padding: 9px 25px;
-    background-color: #6bba62;
+    background-color: #00a651;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -62,7 +65,7 @@ nav{
 }
 
 .sign-in button:hover{
-    background-color: #9ae17b;
+    background-color: #00c15d;
 }
 
 .sign-in button span{
@@ -82,7 +85,7 @@ nav{
 
 
 footer{
-    background: #9ae17b;
+    background: #153a27;
     padding-top: 15px;
     position: relative;
     bottom: 0;
@@ -142,7 +145,7 @@ h3{
     top: 100%;
     width: 0;
     height: 2px;
-    background: rgba(41, 220, 74,1);
+    background: #00a651;
     transition-duration: .5s;
 }
 
@@ -171,15 +174,15 @@ a{
 }
 
 a:hover{
-    color: rgba(41, 220, 74,1);
+    color: #00a651;
 }
 
 .social-icons i:hover{
-    color: rgba(41, 220, 74,1);
+    color: #00a651;
 }
 
 .bottom-footer{
-    background: #6bba62;
+    background: #102c1d;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
