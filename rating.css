@@ -6,7 +6,9 @@ rating{
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background: #ffe400;
+    background: #7F7FD5;
+	background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+	background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
 }
 
 .rating{

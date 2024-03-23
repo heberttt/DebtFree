@@ -12,23 +12,23 @@
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo"><img src="src/logo.png"></a>
+        <a href="homepage.html" class="logo"><img src="src/logo.png"></a>
         <nav>
             <ul class="nav-links">
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="homepage.html">About us</a></li>
+                <li><a href="homepage.html">Contact</a></li>
                 <li><a href="#">FAQ</a></li>
-                <li><a href="#">Article</a></li>
+                <li><a href="history.html">History</a></li>
             </ul>
         </nav>
-        <a class="sign-in" href="#"><button id="signin-btn">Sign-in<span class="material-symbols-outlined">account_circle</span></button></a>
+        <a class="sign-in" href="#"><button>Sign-in<span class="material-symbols-outlined">account_circle</span></button></a>
     </header>
 
     <div id="container">
         <div id="up">
             <div class="split" id="left">
                 <div id ="container2">
-                    <img src="src/user.png">
+                    <img src="https://avatars.hsoubcdn.com/ed57f9e6329993084a436b89498b6088?s=256">
                     <h1>Hebert Pratama</h1>
                     <h3>Financial expert</h3> 
                 </div>
@@ -38,17 +38,17 @@
                 <div id="container3">
                     <ul>
                         <li>
-                            <span class="fee">Fee &#40;30 minute session&#41;</span>
-                            <span class="price">RM 30.00</span>
+                            <span class="fee">Fee &#40;60 minute session&#41;</span>
+                            <span class="price">RM 20.00</span>
                         </li>
                         <li>
                             <span class = "fee">Tax &#40;6%&#41;</span>
-                            <span class="price">RM 5.00</span>
+                            <span class="price">RM 1.20</span>
                         </li>
                     </ul>
                 </div>
                 <div id="total">
-                    <span id="totalText">Total</span><span id="totalPrice">RM 35.00</span>
+                    <span id="totalText">Total</span><span id="totalPrice">RM 21.20</span>
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
             <h1 id = "paymentMethod">Payment method</h1>
 
             <div id="paymentMethodContainer">
-                <form>
+                <form action="payment2.html">
                     <div class="paymentMethodBox">
                         <img style="width:30px" src="src/creditCardLogo.png"><span>Credit / Debit Card</span><input type="radio" class="paymentMethodOption" name = "paymentMethod" value="Credit / Debit Card">
                     </div>

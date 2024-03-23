@@ -3,12 +3,11 @@
 }
 
 #up{
-    background-color: rgb(198, 228, 188);
     height: 400px;
     display: flex;
     flex-wrap: nowrap;
     overflow: hidden;
-    border-bottom: 1px solid rgb(184, 184, 184);
+    border: 1px solid;
 }
 
 #bottom{
@@ -23,12 +22,11 @@
 }
 
 #left{
-    background-color: antiquewhite;
+    background-color: white;
     width: 50%;
     align-self: center;
     text-align: center;
-    border-right: 1px solid rgb(143, 143, 143);
-    
+    border: 1px solid;    
 }
 
 #container2{
@@ -48,10 +46,12 @@
 #left h3{
     font-weight: 200;
     margin-top: 10px;
+    color: black;
+    opacity: 50%;
 }
 
 #right{
-    background-color: antiquewhite;
+    background-color: white;
     width: 50%;
     
 }
